@@ -1,0 +1,98 @@
+/* src/App.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .App {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  /* Style Form component */
+  .form-container {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+  
+  .form-container h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-size: 16px;
+    transition: transform 0.2s, font-size 0.2s, color 0.2s;
+    transform: translateY(0);
+    color: #333;
+    transform-origin: left;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #007bff;
+    transition: border-color 0.3s;
+  }
+  
+  .form-group input:focus {
+    border-bottom: 2px solid #f2f2f2;
+  }
+  
+  .form-group input:valid + label,
+  .form-group input:not(:placeholder-shown) + label {
+    transform: translateY(-30px); /* Adjust the translateY value to make it swoop more */
+    font-size: 14px;
+    color: #007bff;
+  }
+  
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  /* Clear button style */
+  button.clear {
+    background-color: #e74c3c;
+  }
+  
+  /* Add more custom styles as needed */
+  
